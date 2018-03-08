@@ -1,14 +1,15 @@
 For reference
 
-3 letter code: VRC
-Full name: VeriCoin
+3 letter code: OSC
+Full name: OSCoin
 Network magic number: 70352205
-Default peer-to-peer port: 58684
-Default RPC port: 58683
+Default peer-to-peer port: 58584
+Default testnet p2p port: 48584
+Default RPC port: 58583
 Public key prefix: 70
 Pay-to-script hash: 132
 WIF private key prefix: 153
-Minimum fee: 0.0001 VRC
+Minimum fee: 0.0001 OSC
 Minimum recommended confirmations: 10
 Genesis block hash: 000004da58a02be894a6c916d349fe23cc29e21972cafb86b5d3f07c4b8e6bb8
 Genesis block timestamp: 1399690945

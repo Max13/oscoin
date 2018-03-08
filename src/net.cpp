@@ -373,7 +373,7 @@ bool GetMyExternalIP(CNetAddr& ipRet)
 
             pszGet = "GET / HTTP/1.1\r\n"
                      "Host: checkip.dyndns.org\r\n"
-                     "User-Agent: VeriCoin\r\n"
+                     "User-Agent: OSCoin\r\n"
                      "Connection: close\r\n"
                      "\r\n";
 
@@ -392,7 +392,7 @@ bool GetMyExternalIP(CNetAddr& ipRet)
 
             pszGet = "GET /simple/ HTTP/1.1\r\n"
                      "Host: www.showmyip.com\r\n"
-                     "User-Agent: VeriCoin\r\n"
+                     "User-Agent: OSCoin\r\n"
                      "Connection: close\r\n"
                      "\r\n";
 
@@ -409,7 +409,7 @@ bool GetMyExternalIP(CNetAddr& ipRet)
 void ThreadGetMyExternalIP(void* parg)
 {
     // Make this thread recognisable as the external IP detection thread
-    RenameThread("vericoin-ext-ip");
+    RenameThread("oscoin-ext-ip");
 
     CNetAddr addrLocalHost;
     if (GetMyExternalIP(addrLocalHost))
@@ -634,7 +634,7 @@ void CNode::copyStats(CNodeStats &stats)
 void ThreadSocketHandler(void* parg)
 {
     // Make this thread recognisable as the networking thread
-    RenameThread("vericoin-net");
+    RenameThread("oscoin-net");
 
     try
     {
@@ -992,7 +992,7 @@ void ThreadSocketHandler2(void* parg)
 void ThreadMapPort(void* parg)
 {
     // Make this thread recognisable as the UPnP thread
-    RenameThread("vericoin-UPnP");
+    RenameThread("oscoin-UPnP");
 
     try
     {
@@ -1057,7 +1057,7 @@ void ThreadMapPort2(void* parg)
             }
         }
 
-        string strDesc = "VeriCoin Version " + FormatFullVersion();
+        string strDesc = "OSCoin Version " + FormatFullVersion();
 #ifndef UPNPDISCOVER_SUCCESS
         /* miniupnpc 1.5 */
         r = UPNP_AddPortMapping(urls.controlURL, data.first.servicetype,
@@ -1139,13 +1139,13 @@ void MapPort()
 // The first name is used as information source for addrman.
 // The second name should resolve to a list of seed addresses.
 static const char *strDNSSeed[][2] = {
-    {"vericoincore-dnsseed", "dnsseed.vericoin.info"},
+    {"oscoincore-dnsseed", "dnsseed.oscoin.info"},
 };
 
 void ThreadDNSAddressSeed(void* parg)
 {
     // Make this thread recognisable as the DNS seeding thread
-    RenameThread("vericoin-dnsseed");
+    RenameThread("oscoin-dnsseed");
 
     try
     {
@@ -1229,7 +1229,7 @@ void ThreadDumpAddress2(void* parg)
 void ThreadDumpAddress(void* parg)
 {
     // Make this thread recognisable as the address dumping thread
-    RenameThread("vericoin-adrdump");
+    RenameThread("oscoin-adrdump");
 
     try
     {
@@ -1244,7 +1244,7 @@ void ThreadDumpAddress(void* parg)
 void ThreadOpenConnections(void* parg)
 {
     // Make this thread recognisable as the connection opening thread
-    RenameThread("vericoin-opencon");
+    RenameThread("oscoin-opencon");
 
     try
     {
@@ -1425,7 +1425,7 @@ void ThreadOpenConnections2(void* parg)
 void ThreadOpenAddedConnections(void* parg)
 {
     // Make this thread recognisable as the connection opening thread
-    RenameThread("vericoin-opencon");
+    RenameThread("oscoin-opencon");
 
     try
     {
@@ -1556,7 +1556,7 @@ bool OpenNetworkConnection(const CAddress& addrConnect, CSemaphoreGrant *grantOu
 void ThreadMessageHandler(void* parg)
 {
     // Make this thread recognisable as the message handling thread
-    RenameThread("vericoin-msghand");
+    RenameThread("oscoin-msghand");
 
     try
     {
@@ -1728,7 +1728,7 @@ bool BindListenPort(const CService &addrBind, string& strError)
     {
         int nErr = WSAGetLastError();
         if (nErr == WSAEADDRINUSE)
-            strError = strprintf(_("Unable to bind to %s on this computer. VeriCoin is probably already running."), addrBind.ToString().c_str());
+            strError = strprintf(_("Unable to bind to %s on this computer. OSCoin is probably already running."), addrBind.ToString().c_str());
         else
             strError = strprintf(_("Unable to bind to %s on this computer (bind returned error %d, %s)"), addrBind.ToString().c_str(), nErr, strerror(nErr));
         printf("%s\n", strError.c_str());
@@ -1811,7 +1811,7 @@ void static Discover()
 void StartNode(void* parg)
 {
     // Make this thread recognisable as the startup thread
-    RenameThread("vericoin-start");
+    RenameThread("oscoin-start");
 
     if (semOutbound == NULL) {
         // initialize semaphore

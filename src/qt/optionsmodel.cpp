@@ -41,8 +41,8 @@ void OptionsModel::Init()
     QSettings settings;
 
     // These are Qt-only settings:
-    nDisplayUnit = settings.value("nDisplayUnit", BitcoinUnits::VRC).toInt();
-    nDecimalPoints = settings.value("nDecimalPoints", BitcoinUnits::decimals(BitcoinUnits::VRC)).toInt();
+    nDisplayUnit = settings.value("nDisplayUnit", BitcoinUnits::OSC).toInt();
+    nDecimalPoints = settings.value("nDecimalPoints", BitcoinUnits::decimals(BitcoinUnits::OSC)).toInt();
     bDisplayAddresses = settings.value("bDisplayAddresses", false).toBool();
     fCoinControlFeatures = settings.value("fCoinControlFeatures", false).toBool();
     bHideAmounts = settings.value("bHideAmounts", false).toBool();

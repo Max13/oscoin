@@ -48,7 +48,7 @@ void QRCodeDialog::setModel(OptionsModel *model)
         connect(model, SIGNAL(displayUnitChanged(int)), this, SLOT(updateDisplayUnit()));
     }
 
-    // update the display unit, to not use the default ("VRC")
+    // update the display unit, to not use the default ("OSC")
     updateDisplayUnit();
 }
 
@@ -96,8 +96,8 @@ QString QRCodeDialog::getURI()
     {
         if (ui->lnReqAmount->validate())
         {
-            // even if we allow a non VRC unit input in lnReqAmount, we generate the URI with VRC as unit (as defined in BIP21)
-            ret += QString("?amount=%1").arg(BitcoinUnits::formatMaxDecimals(BitcoinUnits::VRC, ui->lnReqAmount->value(), BitcoinUnits::maxdecimals(BitcoinUnits::VRC)));
+            // even if we allow a non OSC unit input in lnReqAmount, we generate the URI with OSC as unit (as defined in BIP21)
+            ret += QString("?amount=%1").arg(BitcoinUnits::formatMaxDecimals(BitcoinUnits::OSC, ui->lnReqAmount->value(), BitcoinUnits::maxdecimals(BitcoinUnits::OSC)));
             paramCount++;
         }
         else

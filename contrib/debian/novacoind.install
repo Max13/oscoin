@@ -1,2 +1,2 @@
-debian/bin/vericoind usr/bin
-src/vericoind usr/lib/vericoin
+debian/bin/oscoind usr/bin
+src/oscoind usr/lib/oscoin

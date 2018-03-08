@@ -48,7 +48,7 @@ SendCoinsDialog::SendCoinsDialog(QWidget *parent) :
 
 #if QT_VERSION >= 0x040700
     /* Do not move this to the XML file, Qt before 4.7 will choke on it */
-    ui->lineEditCoinControlChange->setPlaceholderText(tr("Enter a VeriCoin address (e.g. VTHZfUg11wEJmSgBLUcmCKGYekuqFcGHQq)"));
+    ui->lineEditCoinControlChange->setPlaceholderText(tr("Enter a OSCoin address (e.g. VTHZfUg11wEJmSgBLUcmCKGYekuqFcGHQq)"));
 #endif
 
     addEntry();
@@ -158,7 +158,7 @@ void SendCoinsDialog::on_sendButton_clicked()
     QStringList formatted;
     foreach(const SendCoinsRecipient &rcp, recipients)
     {
-        formatted.append(tr("<b>%1</b> to %2 (%3)").arg(BitcoinUnits::formatWithUnitWithMaxDecimals(BitcoinUnits::VRC, rcp.amount, BitcoinUnits::maxdecimals(BitcoinUnits::VRC)), Qt::escape(rcp.label), rcp.address));
+        formatted.append(tr("<b>%1</b> to %2 (%3)").arg(BitcoinUnits::formatWithUnitWithMaxDecimals(BitcoinUnits::OSC, rcp.amount, BitcoinUnits::maxdecimals(BitcoinUnits::OSC)), Qt::escape(rcp.label), rcp.address));
     }
 
     fNewRecipientAllowed = false;
@@ -209,7 +209,7 @@ void SendCoinsDialog::on_sendButton_clicked()
     case WalletModel::AmountWithFeeExceedsBalance:
         QMessageBox::warning(this, tr("Send Coins"),
             tr("The total exceeds your balance when the %1 transaction fee is included.").
-            arg(BitcoinUnits::formatWithUnitFee(BitcoinUnits::VRC, sendstatus.fee)),
+            arg(BitcoinUnits::formatWithUnitFee(BitcoinUnits::OSC, sendstatus.fee)),
             QMessageBox::Ok, QMessageBox::Ok);
         break;
     case WalletModel::DuplicateAddress:
@@ -480,7 +480,7 @@ void SendCoinsDialog::coinControlChangeEdited(const QString & text)
         else if (!CBitcoinAddress(text.toStdString()).IsValid())
         {
             ui->labelCoinControlChangeLabel->setStyleSheet("QLabel { color: red; }");
-            ui->labelCoinControlChangeLabel->setText(tr("WARNING: Invalid VeriCoin address"));
+            ui->labelCoinControlChangeLabel->setText(tr("WARNING: Invalid OSCoin address"));
         }
         else
         {

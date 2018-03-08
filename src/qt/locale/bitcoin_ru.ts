@@ -5,20 +5,20 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About VeriCoin</source>
-        <translation>О VeriCoin</translation>
+        <source>About OSCoin</source>
+        <translation>О OSCoin</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;VeriCoin&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;VeriCoin&lt;/b&gt; версия</translation>
+        <source>&lt;b&gt;OSCoin&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;OSCoin&lt;/b&gt; версия</translation>
     </message>
     <message>
         <location line="+41"/>
         <source>Copyright © 2009-2014 The Bitcoin developers
-Copyright © 2012-2014 The VeriCoin developers</source>
+Copyright © 2012-2014 The OSCoin developers</source>
         <translation>Все права защищены © 2009-2014 Разработчики Bitcoin
-Все права защищены © 2012-2014 Разработчики VeriCoin</translation>
+Все права защищены © 2012-2014 Разработчики OSCoin</translation>
     </message>
     <message>
         <location line="+14"/>
@@ -65,7 +65,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-46"/>
-        <source>These are your VeriCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <source>These are your OSCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
         <translation>Это Ваши адреса для получения платежей. Вы можете дать разные адреса отправителям, чтобы отслеживать, кто именно вам платит.</translation>
     </message>
     <message>
@@ -80,8 +80,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+11"/>
-        <source>Sign a message to prove you own a VeriCoin address</source>
-        <translation>Подписать сообщение, чтобы доказать владение адресом VeriCoin</translation>
+        <source>Sign a message to prove you own a OSCoin address</source>
+        <translation>Подписать сообщение, чтобы доказать владение адресом OSCoin</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -95,8 +95,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-14"/>
-        <source>Verify a message to ensure it was signed with a specified VeriCoin address</source>
-        <translation>Проверить сообщение, чтобы убедиться, что оно было подписано указанным адресом VeriCoin</translation>
+        <source>Verify a message to ensure it was signed with a specified OSCoin address</source>
+        <translation>Проверить сообщение, чтобы убедиться, что оно было подписано указанным адресом OSCoin</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -253,7 +253,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-56"/>
-        <source>VeriCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
+        <source>OSCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
         <translation>Сейчас программа закроется для завершения процесса шифрования. Помните, что шифрование вашего бумажника не может полностью защитить ваши монеты от кражи с помощью инфицирования вашего компьютера вредоносным ПО.</translation>
     </message>
     <message>
@@ -367,8 +367,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about VeriCoin</source>
-        <translation>Показать информацию о VeriCoin&apos;е</translation>
+        <source>Show information about OSCoin</source>
+        <translation>Показать информацию о OSCoin&apos;е</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -421,13 +421,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-60"/>
-        <source>Send coins to a VeriCoin address</source>
-        <translation>Отправить монеты на указанный адрес VeriCoin</translation>
+        <source>Send coins to a OSCoin address</source>
+        <translation>Отправить монеты на указанный адрес OSCoin</translation>
     </message>
     <message>
         <location line="+45"/>
-        <source>Modify configuration options for VeriCoin</source>
-        <translation>Изменить параметры конфигурации VeriCoin</translation>
+        <source>Modify configuration options for OSCoin</source>
+        <translation>Изменить параметры конфигурации OSCoin</translation>
     </message>
     <message>
         <location line="+16"/>
@@ -466,8 +466,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-198"/>
-        <source>VeriCoin</source>
-        <translation>VeriCoin</translation>
+        <source>OSCoin</source>
+        <translation>OSCoin</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -476,8 +476,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+178"/>
-        <source>&amp;About VeriCoin</source>
-        <translation>&amp;О VeriCoin</translation>
+        <source>&amp;About OSCoin</source>
+        <translation>&amp;О OSCoin</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -518,12 +518,12 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+0"/>
         <location line="+60"/>
-        <source>VeriCoin client</source>
-        <translation>VeriCoin клиент</translation>
+        <source>OSCoin client</source>
+        <translation>OSCoin клиент</translation>
     </message>
     <message numerus="yes">
         <location line="+69"/>
-        <source>%n active connection(s) to VeriCoin network</source>
+        <source>%n active connection(s) to OSCoin network</source>
         <translation>
             <numerusform>%n активное соединение с сетью</numerusform>
             <numerusform>%n активных соединений с сетью</numerusform>
@@ -665,8 +665,8 @@ Address: %4
     <message>
         <location line="-15"/>
         <location line="+15"/>
-        <source>URI can not be parsed! This can be caused by an invalid VeriCoin address or malformed URI parameters.</source>
-        <translation>Не удалось обработать URI! Это может быть связано с неверным адресом VeriCoin или неправильными параметрами URI.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid OSCoin address or malformed URI parameters.</source>
+        <translation>Не удалось обработать URI! Это может быть связано с неверным адресом OSCoin или неправильными параметрами URI.</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -748,8 +748,8 @@ Expected time to earn reward is %3</source>
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+109"/>
-        <source>A fatal error occurred. VeriCoin can no longer continue safely and will quit.</source>
-        <translation>Произошла неисправимая ошибка. VeriCoin не может безопасно продолжать работу и будет закрыт.</translation>
+        <source>A fatal error occurred. OSCoin can no longer continue safely and will quit.</source>
+        <translation>Произошла неисправимая ошибка. OSCoin не может безопасно продолжать работу и будет закрыт.</translation>
     </message>
 </context>
 <context>
@@ -990,8 +990,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <location line="+80"/>
         <location line="+86"/>
         <location line="+38"/>
-        <source>0.00 VRC</source>
-        <translation type="unfinished">123.456 VRC {0.00 ?}</translation>
+        <source>0.00 OSC</source>
+        <translation type="unfinished">123.456 OSC {0.00 ?}</translation>
     </message>
     <message>
         <location line="+131"/>
@@ -1083,8 +1083,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid VeriCoin address.</source>
-        <translation>Введённый адрес &quot;%1&quot; не является правильным VeriCoin-адресом.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid OSCoin address.</source>
+        <translation>Введённый адрес &quot;%1&quot; не является правильным OSCoin-адресом.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1102,8 +1102,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../guiutil.cpp" line="+420"/>
         <location line="+12"/>
-        <source>VeriCoin-Qt</source>
-        <translation>VeriCoin-Qt</translation>
+        <source>OSCoin-Qt</source>
+        <translation>OSCoin-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -1175,13 +1175,13 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start VeriCoin after logging in to the system.</source>
-        <translation>Автоматически запускать VeriCoin после входа в систему</translation>
+        <source>Automatically start OSCoin after logging in to the system.</source>
+        <translation>Автоматически запускать OSCoin после входа в систему</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start VeriCoin on system login</source>
-        <translation>&amp;Запускать VeriCoin при входе в систему</translation>
+        <source>&amp;Start OSCoin on system login</source>
+        <translation>&amp;Запускать OSCoin при входе в систему</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -1200,8 +1200,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the VeriCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Автоматически открыть порт для VeriCoin-клиента на роутере. Работает только если Ваш роутер поддерживает UPnP, и данная функция включена.</translation>
+        <source>Automatically open the OSCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Автоматически открыть порт для OSCoin-клиента на роутере. Работает только если Ваш роутер поддерживает UPnP, и данная функция включена.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1210,8 +1210,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the VeriCoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Подключаться к сети VeriCoin через прокси SOCKS (например, при подключении через Tor).</translation>
+        <source>Connect to the OSCoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation>Подключаться к сети OSCoin через прокси SOCKS (например, при подключении через Tor).</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1285,8 +1285,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting VeriCoin.</source>
-        <translation>Здесь можно выбрать язык интерфейса. Настройки вступят в силу после перезапуска VeriCoin.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting OSCoin.</source>
+        <translation>Здесь можно выбрать язык интерфейса. Настройки вступят в силу после перезапуска OSCoin.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -1300,8 +1300,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+9"/>
-        <source>Whether to show VeriCoin addresses in the transaction list or not.</source>
-        <translation>Показывать ли адреса VeriCoin в списке транзакций.</translation>
+        <source>Whether to show OSCoin addresses in the transaction list or not.</source>
+        <translation>Показывать ли адреса OSCoin в списке транзакций.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1347,8 +1347,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting VeriCoin.</source>
-        <translation>Эта настройка вступит в силу после перезапуска VeriCoin</translation>
+        <source>This setting will take effect after restarting OSCoin.</source>
+        <translation>Эта настройка вступит в силу после перезапуска OSCoin</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1366,8 +1366,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="+33"/>
         <location line="+212"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the VeriCoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Отображаемая информация может быть устаревшей. Ваш бумажник автоматически синхронизируется с сетью VeriCoin после подключения, но этот процесс пока не завершён.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the OSCoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>Отображаемая информация может быть устаревшей. Ваш бумажник автоматически синхронизируется с сетью OSCoin после подключения, но этот процесс пока не завершён.</translation>
     </message>
     <message>
         <location line="-170"/>
@@ -1582,8 +1582,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the VeriCoin-Qt help message to get a list with possible VeriCoin command-line options.</source>
-        <translation>Показать помощь по VeriCoin-Qt, чтобы получить список доступных параметров командной строки.</translation>
+        <source>Show the OSCoin-Qt help message to get a list with possible OSCoin command-line options.</source>
+        <translation>Показать помощь по OSCoin-Qt, чтобы получить список доступных параметров командной строки.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1602,13 +1602,13 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="-104"/>
-        <source>VeriCoin - Debug window</source>
-        <translation>VeriCoin - Окно отладки</translation>
+        <source>OSCoin - Debug window</source>
+        <translation>OSCoin - Окно отладки</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>VeriCoin Core</source>
-        <translation>Ядро VeriCoin</translation>
+        <source>OSCoin Core</source>
+        <translation>Ядро OSCoin</translation>
     </message>
     <message>
         <location line="+279"/>
@@ -1617,8 +1617,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the VeriCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Открыть отладочный лог-файл VeriCoin из текущего каталога данных. Это может занять несколько секунд для больших лог-файлов.</translation>
+        <source>Open the OSCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Открыть отладочный лог-файл OSCoin из текущего каталога данных. Это может занять несколько секунд для больших лог-файлов.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1627,8 +1627,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-33"/>
-        <source>Welcome to the VeriCoin RPC console.</source>
-        <translation>Добро пожаловать в RPC-консоль VeriCoin.</translation>
+        <source>Welcome to the OSCoin RPC console.</source>
+        <translation>Добро пожаловать в RPC-консоль OSCoin.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1711,8 +1711,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <location line="+86"/>
         <location line="+86"/>
         <location line="+32"/>
-        <source>0.00 VRC</source>
-        <translation type="unfinished">123.456 VRC {0.00 ?}</translation>
+        <source>0.00 OSC</source>
+        <translation type="unfinished">123.456 OSC {0.00 ?}</translation>
     </message>
     <message>
         <location line="-191"/>
@@ -1756,8 +1756,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="-173"/>
-        <source>Enter a VeriCoin address (e.g. VTHZfUg11wEJmSgBLUcmCKGYekuqFcGHQq)</source>
-        <translation>Введите VeriCoin-адрес (например VTHZfUg11wEJmSgBLUcmCKGYekuqFcGHQq)</translation>
+        <source>Enter a OSCoin address (e.g. VTHZfUg11wEJmSgBLUcmCKGYekuqFcGHQq)</source>
+        <translation>Введите OSCoin-адрес (например VTHZfUg11wEJmSgBLUcmCKGYekuqFcGHQq)</translation>
     </message>
     <message>
         <location filename="../forms/sendcoinsdialog.ui" line="+129"/>
@@ -1776,8 +1776,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+16"/>
-        <source>123.456 VRC</source>
-        <translation>123.456 VRC</translation>
+        <source>123.456 OSC</source>
+        <translation>123.456 OSC</translation>
     </message>
     <message>
         <location line="+31"/>
@@ -1886,7 +1886,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+251"/>
-        <source>WARNING: Invalid VeriCoin address</source>
+        <source>WARNING: Invalid OSCoin address</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1960,8 +1960,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a VeriCoin address (e.g. VTHZfUg11wEJmSgBLUcmCKGYekuqFcGHQq)</source>
-        <translation>Введите VeriCoin-адрес (например VTHZfUg11wEJmSgBLUcmCKGYekuqFcGHQq)</translation>
+        <source>Enter a OSCoin address (e.g. VTHZfUg11wEJmSgBLUcmCKGYekuqFcGHQq)</source>
+        <translation>Введите OSCoin-адрес (например VTHZfUg11wEJmSgBLUcmCKGYekuqFcGHQq)</translation>
     </message>
 </context>
 <context>
@@ -2021,8 +2021,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this VeriCoin address</source>
-        <translation>Подписать сообщение, чтобы доказать владение адресом VeriCoin</translation>
+        <source>Sign the message to prove you own this OSCoin address</source>
+        <translation>Подписать сообщение, чтобы доказать владение адресом OSCoin</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2053,8 +2053,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified VeriCoin address</source>
-        <translation>Проверить сообщение, чтобы убедиться, что оно было подписано указанным адресом VeriCoin</translation>
+        <source>Verify the message to ensure it was signed with the specified OSCoin address</source>
+        <translation>Проверить сообщение, чтобы убедиться, что оно было подписано указанным адресом OSCoin</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2064,8 +2064,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a VeriCoin address (e.g. VTHZfUg11wEJmSgBLUcmCKGYekuqFcGHQq)</source>
-        <translation>Введите адрес VeriCoin (напр. VTHZfUg11wEJmSgBLUcmCKGYekuqFcGHQq)</translation>
+        <source>Enter a OSCoin address (e.g. VTHZfUg11wEJmSgBLUcmCKGYekuqFcGHQq)</source>
+        <translation>Введите адрес OSCoin (напр. VTHZfUg11wEJmSgBLUcmCKGYekuqFcGHQq)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -2074,8 +2074,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter VeriCoin signature</source>
-        <translation>Введите подпись VeriCoin</translation>
+        <source>Enter OSCoin signature</source>
+        <translation>Введите подпись OSCoin</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -2689,7 +2689,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+29"/>
-        <source>VeriCoin version</source>
+        <source>OSCoin version</source>
         <translation>Версия</translation>
     </message>
     <message>
@@ -2699,8 +2699,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+1"/>
-        <source>Send command to -server or vericoind</source>
-        <translation>Отправить команду на -server или vericoind</translation>
+        <source>Send command to -server or oscoind</source>
+        <translation>Отправить команду на -server или oscoind</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2720,13 +2720,13 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+2"/>
-        <source>Specify configuration file (default: vericoin.conf)</source>
-        <translation>Указать конфигурационный файл (по умолчанию: vericoin.conf)</translation>
+        <source>Specify configuration file (default: oscoin.conf)</source>
+        <translation>Указать конфигурационный файл (по умолчанию: oscoin.conf)</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Specify pid file (default: vericoind.pid)</source>
-        <translation>Указать pid-файл (по умолчанию: vericoind.pid)</translation>
+        <source>Specify pid file (default: oscoind.pid)</source>
+        <translation>Указать pid-файл (по умолчанию: oscoind.pid)</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2743,7 +2743,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <source>%s, you must set a rpcpassword in the configuration file:
  %s
 It is recommended you use the following random password:
-rpcuser=vericoinrpc
+rpcuser=oscoinrpc
 rpcpassword=%s
 (you do not need to remember this password)
 If the file does not exist, create it with owner-readable-only file permissions.
@@ -2905,8 +2905,8 @@ If the file does not exist, create it with owner-readable-only file permissions.
     </message>
     <message>
         <location line="+62"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong VeriCoin will not work properly.</source>
-        <translation>Внимание: убедитесь, что дата и время на Вашем компьютере выставлены верно. Если Ваши часы идут неправильно, VeriCoin будет работать некорректно.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong OSCoin will not work properly.</source>
+        <translation>Внимание: убедитесь, что дата и время на Вашем компьютере выставлены верно. Если Ваши часы идут неправильно, OSCoin будет работать некорректно.</translation>
     </message>
     <message>
         <location line="-76"/>
@@ -3187,13 +3187,13 @@ If the file does not exist, create it with owner-readable-only file permissions.
     </message>
     <message>
         <location line="+1"/>
-        <source>Cannot obtain a lock on data directory %s.  VeriCoin is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s.  OSCoin is probably already running.</source>
         <translation>Невозможно установить блокировку на рабочую директорию %s.  Возможно, бумажник уже запущен.</translation>
     </message>
     <message>
         <location line="-92"/>
-        <source>VeriCoin</source>
-        <translation>VeriCoin</translation>
+        <source>OSCoin</source>
+        <translation>OSCoin</translation>
     </message>
     <message>
         <location line="+134"/>
@@ -3227,13 +3227,13 @@ If the file does not exist, create it with owner-readable-only file permissions.
     </message>
     <message>
         <location line="+4"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of VeriCoin</source>
-        <translation>Ошибка загрузки wallet.dat: бумажник требует более новую версию VeriCoin</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of OSCoin</source>
+        <translation>Ошибка загрузки wallet.dat: бумажник требует более новую версию OSCoin</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Wallet needed to be rewritten: restart VeriCoin to complete</source>
-        <translation>Необходимо перезаписать бумажник, перезапустите VeriCoin для завершения операции</translation>
+        <source>Wallet needed to be rewritten: restart OSCoin to complete</source>
+        <translation>Необходимо перезаписать бумажник, перезапустите OSCoin для завершения операции</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3302,8 +3302,8 @@ If the file does not exist, create it with owner-readable-only file permissions.
     </message>
     <message>
         <location line="+116"/>
-        <source>Unable to bind to %s on this computer. VeriCoin is probably already running.</source>
-        <translation>Невозможно привязаться к %s на этом компьютере.  Возможно, VeriCoin уже работает.</translation>
+        <source>Unable to bind to %s on this computer. OSCoin is probably already running.</source>
+        <translation>Невозможно привязаться к %s на этом компьютере.  Возможно, OSCoin уже работает.</translation>
     </message>
     <message>
         <location line="-110"/>

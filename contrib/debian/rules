@@ -5,29 +5,29 @@
 #build/bitcoind::
 #	$(if $(filter nocheck,$(DEB_BUILD_OPTIONS)),,src/test_bitcoin)
 
-DEB_INSTALL_EXAMPLES_vericoind += debian/examples/*
-DEB_INSTALL_MANPAGES_vericoind += debian/manpages/*
+DEB_INSTALL_EXAMPLES_oscoind += debian/examples/*
+DEB_INSTALL_MANPAGES_oscoind += debian/manpages/*
 
 %:
 	dh --with bash-completion $@
 
 override_dh_auto_build:
-	cd src; $(MAKE) -f makefile.unix vericoind
+	cd src; $(MAKE) -f makefile.unix oscoind
 	$(MAKE)
 
 override_dh_auto_clean:
-	if [ -f Makefile ]; then $(MAKE) clean; else rm -rf build/; rm -f vericoin-qt; fi
+	if [ -f Makefile ]; then $(MAKE) clean; else rm -rf build/; rm -f oscoin-qt; fi
 	cd src; $(MAKE) -f makefile.unix clean
 
 override_dh_auto_configure:
-	qmake vericoin-qt.pro USE_QRCODE=1
+	qmake oscoin-qt.pro USE_QRCODE=1
 
 override_dh_auto_test:
-	cd src; $(MAKE) -f makefile.unix test_vericoin
-	src/test_vericoin
+	cd src; $(MAKE) -f makefile.unix test_oscoin
+	src/test_oscoin
 
 # Ensure wrapper is set executable
-binary-post-install/vericoind:
-	chmod +x $(cdbs_curdestdir)usr/bin/vericoind
-binary-post-install/vericoin-qt:
-	chmod +x $(cdbs_curdestdir)usr/bin/vericoin-qt
+binary-post-install/oscoind:
+	chmod +x $(cdbs_curdestdir)usr/bin/oscoind
+binary-post-install/oscoin-qt:
+	chmod +x $(cdbs_curdestdir)usr/bin/oscoin-qt

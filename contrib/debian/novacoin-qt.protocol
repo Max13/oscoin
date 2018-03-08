@@ -1,6 +1,6 @@
 [Protocol]
-exec=vericoin-qt '%u'
-protocol=vericoin
+exec=oscoin-qt '%u'
+protocol=oscoin
 input=none
 output=none
 helper=true

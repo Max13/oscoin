@@ -29,7 +29,7 @@ class TxViewDelegate : public QAbstractItemDelegate
 {
     Q_OBJECT
 public:
-    TxViewDelegate(): QAbstractItemDelegate(), unit(BitcoinUnits::VRC)
+    TxViewDelegate(): QAbstractItemDelegate(), unit(BitcoinUnits::OSC)
     {
 
     }
@@ -284,7 +284,7 @@ void OverviewPage::setModel(WalletModel *model)
         connect(model->getOptionsModel(), SIGNAL(hideAmountsChanged(bool)), this, SLOT(updateHideAmounts()));
     }
 
-    // update the display unit, to not use the default ("VRC")
+    // update the display unit, to not use the default ("OSC")
     updateDisplayUnit();
 }
 
